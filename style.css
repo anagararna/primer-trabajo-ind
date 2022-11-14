@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+}
+.menu {
+    font-family:Arial, Helvetica, sans-serif ;
+    display: inline-block;
+    background-color: white;
+    position: fixed;
+    margin: 10px;
+    padding: 10px;
+    width: 100vw;
+    text-decoration: none;
+}
+.menu a {  
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px;
+}
+.uno {
+    color: black;
+    margin-left: 8%;
+    text-decoration: none;
+}
+.dos {
+    color: gray;
+    margin-left: 45%;
+}
+.tres {
+    color: gray;
+
+}
+.cuatro a {
+    text-decoration: none;
+    color: grey;
+}
+button.cuatro  {
+    font-size: 12px;
+    border-radius: 25px 25px 25px 25px;
+    border: 0;
+}
+button.cuatro :hover {
+   width: max-content;
+   color: white;
+   background-color: blue;
+   border-radius: 25px 25px 25px 25px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+}
+.one {
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    width: 100vw;
+    justify-items: left;
+    align-items: center;
+    margin-bottom: 0%;
+
+}    
+.texto {
+    text-align: left;
+    padding: 15%;
+}
+.texto h1 {
+    font-size: 64px;
+}
+.texto h5 {
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size: 18px;
+    color: gray;
+}
+.img-mobil {
+    max-width: 250px;
+    float:right;
+}
+.two {
+   display: block;
+   padding: 10px;
+   width: 100vw;
+   height:100vh;
+   background-size: cover; 
+   background-image: url("/media/tablet.png");
+   background-repeat: no-repeat;
+}
+.two h2 {
+    margin-left: 10%;
+    font-size: 64px;
+    color: rgb(122, 113, 118);
+    margin-top: 15%;
+}
+.cinco a {
+    text-decoration: none;
+    color: rgb(122, 113, 118);
+}
+.cinco {
+    margin-left: 10%;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 25px 25px 25px 25px;
+    border: 0;
+}
+.cinco :hover {
+    width: 150px;
+    height: 40px ;
+    color: white;
+    background-color: blue;
+    border-radius: 25px 25px 25px 25px;
+}
+.three {
+font-family: Arial, Helvetica, sans-serif;    
+width: 100vw;
+height: auto;
+padding: 6%;
+}
+.three p {
+   color: gray;
+}
+.col-1 {
+    width: 33vw;
+    display: inline-block;
+}
+.col-2 {
+    width: 33vw;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 6%;
+}
+.col-3 {
+    width: 33vw;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 6%;
+}
+.three i {
+    font-size: 36px;
+    text-align: center;
+    color: #5d5dea;
+}
+.img-mobil-2 {
+    max-width: 250px;
+}  
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100vw;
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;    
+    vertical-align: center;
+    font-size: 12px;
+    padding: 10px;
+}
+.footer img {
+    width: 16px;
+    background-color: white;
+    border-radius: 50% 50% 50% 50%;
+}
