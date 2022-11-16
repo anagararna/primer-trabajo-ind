@@ -95,12 +95,12 @@ button.cuatro :hover {
     color: gray;
 }
 @media screen and (max-width: 992px) {
-    .img-mobil {
+    .img-mobil .img-mobil-2{
       width: 50%;
     }
 } 
 @media screen and (max-width: 600px) {
-    .img-mobil {
+    .img-mobil .img-mobil-2{
       width: 100%;
     }
 } 
@@ -186,7 +186,8 @@ margin-left: 25%;
     max-width: 250px;
     margin-left: 15%;
     background-image: linear-gradient(45deg, rgba(254,187,187,1) 0%, rgba(39,24,135,1) 14%, rgba(198,177,147,1) 26%, rgba(254,144,144,1) 45%, rgba(135,183,179,1) 63%, rgba(255,92,92,1) 74%, rgba(255,92,92,1) 74%, rgba(39,24,135,1) 97%); 
-    border-radius: 14% 14% 14% 14%; 
+    border-radius: 14% 14% 14% 14%;
+     
 } 
 .footer {
     background-color: black;
@@ -208,15 +209,24 @@ margin-left: 25%;
     width: 400px;
     height: 400px;
     border-radius: 50%;
-    background-image: linear-gradient(60deg, #e93cec 0%, #492eec 0%, #492eec 15%, #8a1fe4 28%, #8a1fe4 42%, #8a1fe4 48%, #8a1fe4 62%, #8a1fe4 77%, #9d1aae 100%, #fb83fa 100%);  
+    background-image: linear-gradient(60deg, #e93cec 0%, #492eec 0%, #492eec 15%, #8a1fe4 28%, #8a1fe4 42%, #8a1fe4 48%, #8a1fe4 62%, #8a1fe4 77%, #9d1aae 100%, #fb83fa 100%); 
+    z-index: 1; 
+    animation: animate 3s linear infinite;
 } 
+@keyframes animate{
+    0%{
+        filter: hue-rotate(0deg);
+    }100%{
+        filter: hue-rotate(360deg)
+    }
+}
 @media screen and (max-width: 992px) {
     .circulo .circulo-2 {
       width: 50%;
       height: 50%;
     }
 } 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 300px) {
     .circulo .circulo-2 {
       width: 100%;
     }
@@ -226,5 +236,7 @@ margin-left: 25%;
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    background-image: linear-gradient(60deg, #e93cec 0%, #492eec 0%, #492eec 15%, #8a1fe4 28%, #8a1fe4 42%, #8a1fe4 48%, #8a1fe4 62%, #8a1fe4 77%, #9d1aae 100%, #fb83fa 100%);  
+    background-image: linear-gradient(60deg, #e93cec 0%, #492eec 0%, #492eec 15%, #8a1fe4 28%, #8a1fe4 42%, #8a1fe4 48%, #8a1fe4 62%, #8a1fe4 77%, #9d1aae 100%, #fb83fa 100%); 
+    z-index: 1; 
+    animation: animate 3s linear infinite; 
 } 
